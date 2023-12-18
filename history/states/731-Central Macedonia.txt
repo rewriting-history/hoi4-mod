@@ -1,0 +1,20 @@
+
+state={
+	id=731
+	name="STATE_731"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		add_core_of = GRE
+	}
+
+	provinces={
+		841 966 3844 3914 3980 6930 9805 9837 9916 11786 12001
+	}
+	manpower=1155700
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

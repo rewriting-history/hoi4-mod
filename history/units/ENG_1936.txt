@@ -1,0 +1,502 @@
+﻿division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Colonial Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division= {
+		name = "Infantry Division"
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 9458
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 3379
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 11293
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 9303
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 7394
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 3273
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 9392
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11297
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 9397
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 11218
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 11253
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {
+		name = "Infantry Division"
+		location = 11221
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 3287
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	
+	division= {	
+		name = "Infantry Division"
+		location = 407
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 6318
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 311
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 6384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9239
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 7193
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+
+	division= {
+		name = "Infantry Division"
+		location = 13070
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 3369
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 48
+		}
+		location = 6351
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	
+	### Middle East Command ###
+	#Sudan
+	division= {	
+		name = "Colonial Brigade"
+		location = 12806
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.4
+	}
+
+	#Aden
+	division= {	
+		name = "Colonial Brigade"
+		location = 12821
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#Abu Dhabi
+	division= {	
+		name = "Colonial Brigade"
+		location = 7960
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	#Doha
+	division= {	
+		name = "Colonial Brigade"
+		location = 8051
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+
+	#Egypt
+	division= {	
+		name = "Colonial Brigade"
+		location = 7011
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division= {	
+		name = "Colonial Brigade"
+		location = 1155
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+	division= {	
+		name = "Colonial Brigade"
+		location = 4076
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+	
+	#Malta
+	division= {	
+		name = "Colonial Brigade"
+		location = 12003
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+	
+	###East Africa
+	division= {	
+		name = "Colonial Brigade"
+		location = 1939
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 1939
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 12991
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 10833
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.3
+	}
+
+	###West Africa
+	division= {	
+		name = "Colonial Brigade"
+		location = 2050
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+	}
+
+	division= {	  
+		name = "Colonial Brigade"
+		location = 10862 
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+	}
+
+	division= {	  
+		name = "Colonial Brigade"
+		location = 4948
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+	}
+
+	division= {	  
+		name = "Colonial Brigade"
+		location = 4989
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+	}
+
+	division= {	  
+		name = "Colonial Brigade"
+		location = 2038
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_equipment_factor = 0.15
+	}
+	
+	### Far East Command ###
+	###Malaya
+	division= {	
+		name = "Colonial Brigade"
+		location = 12299
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 12215
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 4401
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 4075
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.15
+	}
+
+	###Ceylon
+	division= {	
+		name = "Colonial Brigade"
+		location = 7260
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	### Americas ###
+	###Guyana
+	division= {	
+		name = "Colonial Brigade"
+		location = 12885
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	###Guyana
+	division= {	
+		name = "Colonial Brigade"
+		location = 4982
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	###Trinidad
+	division= {	
+		name = "Colonial Brigade"
+		location = 3284
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	###Caribbean
+	division= {	
+		name = "Colonial Brigade"
+		location = 9377
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	###Jamaica
+	division= {	
+		name = "Colonial Brigade"
+		location = 12304
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+
+	###Bahamas
+	division= {	
+		name = "Colonial Brigade"
+		location = 10254
+		division_template = "Colonial Brigade"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "ENG" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.15
+	}
+}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 9
+		progress = 0.1
+		efficiency = 50
+		industrial_manufacturer = mio:ENG_rsaf_enfield_organization
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+		industrial_manufacturer = mio:ENG_royal_arsenal_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ENG" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+}

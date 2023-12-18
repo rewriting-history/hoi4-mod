@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+			name = "Louis_II"
+			texturefile = "gfx/leaders/MCO/Louis_II.dds"
+		}
+}

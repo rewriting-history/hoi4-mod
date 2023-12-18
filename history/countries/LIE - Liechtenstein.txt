@@ -1,0 +1,32 @@
+capital = 848
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+recruit_character = LIE_Johann_II
+
+create_faction = League_of_Neutrality
+add_to_faction = SWI
+add_to_faction = LIE
+
+set_convoys = 20
+
+add_ideas = {
+	LIE_country_lore
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 9
+	fascism = 4
+	communism = 2
+	neutrality = 85
+}

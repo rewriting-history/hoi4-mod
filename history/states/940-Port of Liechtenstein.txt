@@ -1,0 +1,27 @@
+state={
+	id=940
+	name="STATE_940"
+	provinces={
+		12559 
+	}
+
+	history={
+		owner = LIE
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			12559 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = SOV
+		add_core_of = LIE
+
+	}
+
+	manpower=8500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

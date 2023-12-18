@@ -1,0 +1,53 @@
+state={
+	id=463
+	name="STATE_463"
+
+	history={
+		owner = LIE
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			13091 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = LIE
+
+		victory_points = {
+			13091 10 
+		}
+
+		victory_points = {
+			7884 1 
+		}
+
+		victory_points = {
+			4848 1 
+		}
+
+		victory_points = {
+			13090 1 
+		}
+
+		victory_points = {
+			10707 1 
+		}
+
+		set_province_name = { id = 7884 name = "Insel Johann"}
+		set_province_name = { id = 13091 name = "Neues Vaduz"}
+		set_province_name = { id = 4848 name = "Neues Triesen"}
+		set_province_name = { id = 13090 name = "Neues Shaan"}
+		set_province_name = { id = 10707 name = "Steg"}
+	}
+
+	provinces={
+		1135 1830 4833 4848 7855 7884 10679 10694 10707 12661 13069 13090 13091 13202 13203 
+	}
+	manpower=167500
+	buildings_max_level_factor=1
+	state_category="rural"
+
+	local_supplies=0.0 
+}

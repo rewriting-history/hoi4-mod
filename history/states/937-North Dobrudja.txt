@@ -1,0 +1,22 @@
+state={
+	id=937
+	name="STATE_937"
+	state_category = rural
+
+	history = {
+		owner = ROM
+		add_core_of = ROM
+		add_core_of = YUG
+
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		687 3076 9635 
+	}
+	manpower=218000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}

@@ -1,0 +1,610 @@
+﻿division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Colonial Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+	division= {	
+		name = "Infantry Division"
+		location = 6334
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 537
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 478
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 478
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6521
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6521
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6521
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11505
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6462
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6462
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6462
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11467
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11467
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6402
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Infantry Division"
+		location = 266
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Infantry Division"
+		location = 3384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Infantry Division"
+		location = 281
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6257
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11264
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11264
+		division_template ="Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11388
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Infantry Division"
+		location = 241
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6488
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9572
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9572
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9517
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11544
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11497
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 586
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}	
+		
+	division= {	
+		name = "Infantry Division"
+		location = 692
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 678
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+
+	division= {	
+		name = "Infantry Division"
+		location = 9503
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9559
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9559
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 9559
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6558
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 3295
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11372
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 3288
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11531
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 11435
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 587
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6469
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 455
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 455
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 321
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 514
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 3535
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 425
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 3561
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 564
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6377
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 6377
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 3522
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 362
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 332
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	### Colonial Brigade
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 1951
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 8039
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 8193
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 12975
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2080
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2081
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2196
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2196
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2220
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 9962
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 10963
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2229
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 4329
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 12237
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 12240
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 7251
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 1269
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 4226
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 2489
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 13030
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 13041
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Colonial Brigade"
+		location = 4357
+		division_template = "Colonial Brigade"
+		start_experience_factor = 0.3
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 10
+		progress = 0.1
+		efficiency = 50
+		industrial_manufacturer = mio:GER_mauser_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.3
+		efficiency = 50
+		industrial_manufacturer = mio:GER_rheinmetall_organization
+	}
+}

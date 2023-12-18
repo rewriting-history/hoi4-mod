@@ -1,0 +1,30 @@
+state = {
+	id = 735
+	name = "STATE_735"
+
+	state_category = town
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+		add_core_of = MCO
+
+		victory_points = {
+			9909 5 
+		}
+		buildings = {
+			infrastructure = 2
+			9909 = {
+				naval_base = 2
+			}		
+		}
+	}
+
+	provinces = {
+		764 3764 3959 6975 9736 9909
+	}
+	manpower = 607500
+	buildings_max_level_factor = 1.000
+
+	local_supplies = 0.0 
+}

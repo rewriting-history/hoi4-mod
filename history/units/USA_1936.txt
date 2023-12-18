@@ -1,0 +1,187 @@
+﻿division_template = {
+	name = "Infantry Division"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Colonial Brigade"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	division= {
+		name = "Infantry Division"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	
+	division= {
+		name = "Infantry Division"
+		location = 6732
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+	
+	division= {			
+		name = "Infantry Division"
+		location = 3878
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 6984
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 6984
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 6855
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 6855
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {
+		name = "Infantry Division"
+		location = 9450
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 9450
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division = {			
+		name = "Infantry Division"
+		location = 12384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 12384
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+
+	division= {	
+		name = "Infantry Division"
+		location = 12586
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	division= {			
+		name = "Infantry Division"
+		location = 12586
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}	
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+		
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "USA"
+		}
+		requested_factories = 3
+		progress = 0.1
+		efficiency = 50
+		industrial_manufacturer = mio:USA_springfield_armory_organization
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "USA" 
+		}
+		requested_factories = 2
+		progress = 0.3
+		efficiency = 50
+		industrial_manufacturer = mio:USA_rock_island_arsenal_organization
+	}
+}
+#####################
