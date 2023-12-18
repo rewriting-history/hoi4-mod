@@ -11,7 +11,7 @@
 
 	default = no
 	continuous_focus_position = { x = 50 y = 2000 }
-    	initial_show_position = { focus = MCO_promise_for_a_change }
+    	initial_show_position = { focus = GFX_goal_MCO_promise_for_a_change }
 
 	focus = {
 		id = MCO_promise_for_a_change
