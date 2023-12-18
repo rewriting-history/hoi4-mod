@@ -4,5 +4,6 @@ tags={
 	"Alternative History"
 }
 name="Rewriting History Mod"
-supported_version="1.13.6"
+replace_path="common/national_focus"
+supported_version="1.13.*"
 remote_file_id="3115573243"
