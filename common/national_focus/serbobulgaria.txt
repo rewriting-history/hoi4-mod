@@ -1,0 +1,81 @@
+﻿focus_tree = {
+	id = monaco_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = YUG
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 50 y = 2000 }
+    	initial_show_position = { focus = YUG_fuel_the_flames_of_hatred }
+
+	focus = {
+		id = YUG_surpress_the_anti_ottoman_feelings
+		icon = GFX_unkown
+		x = 5
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			is_puppet_of = TUR
+		}
+		
+		mutually_exclusive = {
+			focus = YUG_fuel_the_flames_of_hatred
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+
+		completion_reward = {
+			add_stability = -0.1
+			TUR = {
+				add_opinion_modifier = {
+					target = YUG
+					modifier = medium_increase
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = YUG_fuel_the_flames_of_hatred
+		icon = GFX_unkown
+		x = 10
+		y = 0
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			is_puppet_of = TUR
+		}
+
+		mutually_exclusive = {
+			focus = YUG_surpress_the_anti_ottoman_feelings
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+
+		completion_reward = {
+			add_stability = -0.05
+			TUR = {
+				add_opinion_modifier = {
+					target = YUG
+					modifier = small_decrease
+				}
+			}
+			add_war_support = 0.05
+		}
+	}
+}
