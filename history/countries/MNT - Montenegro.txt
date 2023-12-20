@@ -1,0 +1,37 @@
+﻿capital = 105 # Montenegro
+
+oob = "MNT_1936"
+
+set_research_slots = 3
+recruit_character = MNT_Nicolas_I
+
+# Starting tech
+set_technology = {
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 20
+	fascism = 2
+	communism = 4
+	neutrality = 74
+}
+
+recruit_character = MNT_kristo_popovic
+recruit_character = MNT_blazo_jovanovic
+recruit_character = MNT_blazo_dukanovic
+
+
+
+

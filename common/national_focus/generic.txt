@@ -25,6 +25,13 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 
+	modifier = {
+		add = 100
+		tag = GER
+		tag = SOV
+		tag = TUR
+	}
+
 	initial_show_position = {
 		focus = industrial_effort
 	}
