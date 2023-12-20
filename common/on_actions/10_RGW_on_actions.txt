@@ -4,6 +4,7 @@ on_actions = {
 			every_country = {
 				news_event = {
 					id = RGW_news.1
+					days = 1
 				}
 			}
 

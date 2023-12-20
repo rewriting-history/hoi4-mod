@@ -6,11 +6,12 @@ news_event = {
 	desc = RGW_news.1.d
 	picture = GFX_RGW_news_welcome
 	
-	major = yes
-	
+	#major = yes
 	is_triggered_only = yes
-	fire_only_once = yes
 
+	trigger = {
+		date > 1910.1.2
+	}
 	option = {
 		name = "I 100% will read what is written!"
 	}
