@@ -19,7 +19,7 @@ set_technology = {
 	basic_train = 1
 }
 
-recruit_character = AUS_kurt_schuschnigg
+recruit_character = AUS_Franz_Ferdinand
 recruit_character = AUS_karl_renner
 recruit_character = AUS_arthur_seyss-inquart
 recruit_character = AUS_alfred_klahr
@@ -50,10 +50,10 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 48
-	fascism = 50
-	democratic = 1
-	communism = 1
+	neutrality = 79
+	fascism = 7
+	democratic = 6
+	communism = 8
 }
 
 set_stability = 0.50

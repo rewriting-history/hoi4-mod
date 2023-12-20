@@ -1,0 +1,15 @@
+characters={
+	SOV_Nicolas_II = {
+		name="Nicolas II"
+		portraits={
+			civilian={
+				large="Nicolas_II"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

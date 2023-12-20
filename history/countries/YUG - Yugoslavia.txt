@@ -4,6 +4,7 @@ oob = "YUG_1936"
 set_research_slots = 3
 set_cosmetic_tag = YUG_TUR_puppet
 
+recruit_character = YUG_George_Obrenovic
 recruit_character = YUG_prince_paul
 recruit_character = YUG_milan_stojadinovic
 recruit_character = YUG_milan_grol
@@ -47,6 +48,21 @@ set_technology = {
 	interwar_antiair = 1
 	superior_firepower = 1
 	basic_train = 1
+}
+
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1910.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 1
+	fascism = 4
+	communism = 5
+	neutrality = 90
 }
 
 set_stability = 0.6
