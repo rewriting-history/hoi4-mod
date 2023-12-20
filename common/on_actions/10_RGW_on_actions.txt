@@ -1,0 +1,19 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			every_country = {
+				news_event = {
+					id = RGW_news.1
+					days = 1
+				}
+			}
+
+			MCO = {
+				country_event = RGW_lore.1
+			}
+			YUG = {
+				country_event = RGW_lore.2
+			}
+		}
+	}
+}

@@ -1025,7 +1025,6 @@ country_event = {
 		MCO = { create_wargoal = { type = puppet_wargoal_focus target = SPR } }
 	}
 }
-
 ##################################
 ### Invite Spain END
 ##################################

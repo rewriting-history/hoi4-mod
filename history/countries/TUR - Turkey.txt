@@ -24,11 +24,6 @@ add_ideas = {
 	TUR_country_lore
 }
 
-set_autonomy = {
-	target = YUG
-	autonomous_state =  autonomy_puppet
-}
-
 
 set_politics = {
 	ruling_party = neutrality

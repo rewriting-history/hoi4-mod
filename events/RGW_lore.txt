@@ -1,0 +1,26 @@
+add_namespace = RGW_lore
+
+country_event = {
+	id = RGW_lore.1
+	title = RGW_lore.1.t
+	desc = RGW_lore.1.d
+	picture = GFX_RGW_news_welcome
+	
+	is_triggered_only = yes
+
+	option = {
+		name = RGW_lore.1.a
+	}
+}
+country_event = {
+	id = RGW_lore.2
+	title = RGW_lore.2.t
+	desc = RGW_lore.2.d
+	picture = GFX_RGW_news_welcome
+	
+	is_triggered_only = yes
+
+	option = {
+		name = RGW_lore.2.a
+	}
+}

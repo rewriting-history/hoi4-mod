@@ -432,6 +432,7 @@
  YUG:0 "Serbo-Bulgaria"
  YUG_DEF:0 "Serbo-Bulgaria"
  YUG_ADJ:0 "Serbo-Bulgarian"
+ YUG_TUR_puppet:0 "Ottoman Serbo-Bulgaria"
  YUG_subject:0 "$OVERLORDADJ$ $YUG$"
  YUG_subject_DEF:0 "$OVERLORDADJ$ $YUG$"
  SWI_fascism:1 "Imperial Helvetia"
