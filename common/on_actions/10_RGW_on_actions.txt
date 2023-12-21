@@ -14,6 +14,48 @@ on_actions = {
 			YUG = {
 				country_event = RGW_lore.2
 			}
+			SAN = {
+				country_event = RGW_lore.3
+			}
+			LIE = {
+				country_event = RGW_lore.4
+			}
+			TUR = {
+				country_event = RGW_lore.5
+			}
+			USA = {
+				country_event = RGW_lore.6
+			}
+			SPR = {
+				country_event = RGW_lore.7
+			}
+			ENG = {
+				country_event = RGW_lore.8
+			}
+			GER = {
+				country_event = RGW_lore.9
+			}
+			AUS = {
+				country_event = RGW_lore.10
+			}
+			SWE = {
+				country_event = RGW_lore.11
+			}
+			MEX = {
+				country_event = RGW_lore.12
+			}
+			CHI = {
+				country_event = RGW_lore.13
+			}
+			JAP = {
+				country_event = RGW_lore.14
+			}
+			PHI = {
+				country_event = RGW_lore.15
+			}
+			SOV = {
+				country_event = RGW_lore.16
+			}
 		}
 	}
 }
