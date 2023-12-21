@@ -58,4 +58,29 @@ on_actions = {
 			}
 		}
 	}
+
+	on_government_change = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = MCO
+					has_government = democratic
+				}
+				MCO = {
+					set_cosmetic_tag = MCO_democratic
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MCO
+					NOT = {
+						has_government = democratic
+					}
+				}
+				MCO = {
+					drop_cosmetic_tag = yes
+				}
+			}
+		}
+	}
 }
