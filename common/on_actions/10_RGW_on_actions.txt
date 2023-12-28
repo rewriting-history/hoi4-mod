@@ -59,16 +59,14 @@ on_actions = {
 		}
 	}
 
-	on_government_change = {
+	on_ruling_party_change = {
 		effect = {
 			if = {
 				limit = {
 					original_tag = MCO
 					has_government = democratic
 				}
-				MCO = {
-					set_cosmetic_tag = MCO_democratic
-				}
+				set_cosmetic_tag = MCO_turned_democratic
 			}
 			if = {
 				limit = {
@@ -77,9 +75,28 @@ on_actions = {
 						has_government = democratic
 					}
 				}
-				MCO = {
-					drop_cosmetic_tag = yes
+				drop_cosmetic_tag = yes
+			}
+		}
+	}
+
+	on_government_change = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = MCO
+					has_government = democratic
 				}
+				set_cosmetic_tag = MCO_turned_democratic
+			}
+			if = {
+				limit = {
+					original_tag = MCO
+					NOT = {
+						has_government = democratic
+					}
+				}
+				drop_cosmetic_tag = yes
 			}
 		}
 	}
